@@ -12,7 +12,6 @@ if __name__ == '__main__':
 
     orbits = {}
     with(open('data/day06.txt')) as f:
-    #with(open('data/test.txt')) as f:
         for i in f.readlines():
             orbits[i.strip().split(')')[1]]=i.strip().split(')')[0]
     
