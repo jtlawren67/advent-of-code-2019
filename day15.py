@@ -1,6 +1,4 @@
 from collections import defaultdict
-import random
-import csv
 
 class Intcode:
     def __init__(self, program):
