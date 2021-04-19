@@ -50,6 +50,3 @@ if __name__ == '__main__':
 
     output = [str(i) for i in output]
     print("PART 2:", ''.join(output[offset:offset+8]))
-
-
-
